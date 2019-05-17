@@ -11,10 +11,9 @@ def likes_to_eat(person, snack)
   for food in foods
     if (food == snack)
       return true
-    else
-      return false
     end
   end
+  return false
 end
 
 def add_friend(person, name)
